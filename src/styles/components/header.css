@@ -1,0 +1,53 @@
+.header .jumbotron-container {
+    background-color: #4169E1;
+    height: 140px;
+    display: flex;
+    /* justify-content: center; Flex 컨테이너 내부의 요소들을 수평으로 가운데 정렬합니다.*/
+    align-items: center; /*Flex 컨테이너 내부의 요소들을 수직으로 가운데 정렬합니다.*/
+}
+
+.header .jumbotron-items {
+    color: white;
+    margin-left: 10%;
+}
+
+.header .jumbotron-items h1{
+    margin-bottom: -20px;
+}
+.header .menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;  
+    height: auto;
+
+    
+}
+.header .oneDepth {
+    margin-right: 5%;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+.header .oneDepth a {
+    text-decoration-line: none;
+    color: black;
+}
+.header .twoDepth {
+    list-style: none;
+    display: none;
+    padding: 0px;
+    margin: 0px;   
+    position: absolute; /* 또는 fixed */
+}
+.header .twoDepth li{
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.header .twoDepth.active {
+    display: block;
+}
+
+
+

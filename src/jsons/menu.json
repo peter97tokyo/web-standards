@@ -1,0 +1,42 @@
+{   
+    "menus" :[
+            {
+                "oneDepthTitle" : "첫번째",
+                "oneDepthLink" : "www.naver.com",
+                "underDepth" : [
+                    {   "twoDepthTitle" : "naver",
+                        "twoDepthLink" : "www.naver.com"
+                    },
+                    {   "twoDepthTitle" : "google",
+                        "twoDepthLink" : "www.google.com"
+                    }
+                ]
+            },
+
+            {
+                "oneDepthTitle" : "두번째",
+                "oneDepthLink" : "www.naver.com",
+                "underDepth" : [
+                    {   "twoDepthTitle" : "naver",
+                        "twoDepthLink" : "www.naver.com"
+                    },
+                    {   "twoDepthTitle" : "google",
+                        "twoDepthLink" : "www.google.com"
+                    }
+                ]
+            },
+        
+            {
+                "oneDepthTitle" : "셋번째",
+                "oneDepthLink" : "www.naver.com",
+                "underDepth" : [
+                    {   "twoDepthTitle" : "naver",
+                        "twoDepthLink" : "www.naver.com"
+                    },
+                    {   "twoDepthTitle" : "google",
+                        "twoDepthLink" : "www.google.com"
+                    }
+                ]
+            }    
+    ]
+}
