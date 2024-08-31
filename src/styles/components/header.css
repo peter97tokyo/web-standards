@@ -76,5 +76,5 @@
 .menuItem:focus-within .oneDepth a {
     background-color: rgba(255, 255, 255, 0.3); /* 상위 메뉴에 반투명 배경 추가 */
     color: white; /* 텍스트 색상 유지 */
-    border-radius: 5px 5px 0 0; /* 상위 메뉴의 모서리 둥글게 */
+    border-radius: 5px 5px 5px 5px; /* 상위 메뉴의 모서리 둥글게 */
 }

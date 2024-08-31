@@ -1,6 +1,10 @@
 {   
     "menus" :[
             {
+                "oneDepthTitle" : "HOME",
+                "oneDepthLink" : "/"
+            },
+            {
                 "oneDepthTitle" : "첫번째",
                 "oneDepthLink" : "www.naver.com",
                 "underDepth" : [

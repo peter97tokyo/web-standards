@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import {Link} from 'react-router-dom'
 import '../styles/components/header.css';
 import menuData from '../jsons/menu.json';
 
@@ -18,13 +19,24 @@ const Header = () => {
         // 메뉴 데이터를 한 번만 렌더링
         const one = menuData.menus.map((obj, index) => (
             <div key={index} className="menuItem">
+                
                 <div className="oneDepth">    
+                    {obj.oneDepthLink.includes('www') === false
+                    ?
+                    <Link to={obj.oneDepthLink}>{obj.oneDepthTitle}</Link>
+                    :
                     <a href={`https://${obj.oneDepthLink}`} target="_blank" rel="noopener noreferrer">
-                        {obj.oneDepthTitle}
+                    {obj.oneDepthTitle}
                     </a>
+                    }
+                    
                 </div>    
+                {
+                obj.underDepth == null 
+                ?<div style={{display: 'none'}}></div>
+                :
                 <ul className={`twoDepth ${isOver ? "active" : ""}`}>
-                    {obj.underDepth.map((subObj, subIndex) => (
+                    {obj.underDepth && obj.underDepth.map((subObj, subIndex) => (
                         <li key={subIndex}>
                             <a href={`https://${subObj.twoDepthLink}`} target="_blank" rel="noopener noreferrer">
                                 {subObj.twoDepthTitle}
@@ -32,6 +44,7 @@ const Header = () => {
                         </li>
                     ))}
                 </ul>
+                }
             </div>
         ));
 
@@ -42,10 +55,11 @@ const Header = () => {
         <div className='header'>
             <div className='jumbotron-container'>
                 <div className='jumbotron-items'>
-                    <h1>Nice to see you</h1>
+                    <h1>Nice to see you🗼</h1>
                     <h3>I am Korean man in Tokyo</h3>
                 </div>
             </div>
+            
             <div className='menu-container' 
                 onMouseOver={handleOver} 
                 onMouseOut={handleOut} 
@@ -54,6 +68,7 @@ const Header = () => {
             > 
                 {oneDepth}
             </div>
+            
         </div>
     )
 }
