@@ -1,5 +1,5 @@
 .footer .jumbotron-container {
-    background-color: red;
+    background-color: #D3D3D3;
     height: 200px;
     display: flex;
     /* justify-content: center; Flex 컨테이너 내부의 요소들을 수평으로 가운데 정렬합니다.*/

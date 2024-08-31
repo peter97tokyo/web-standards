@@ -1,53 +1,80 @@
-.header .jumbotron-container {
-    background-color: #4169E1;
-    height: 140px;
-    display: flex;
-    /* justify-content: center; Flex 컨테이너 내부의 요소들을 수평으로 가운데 정렬합니다.*/
-    align-items: center; /*Flex 컨테이너 내부의 요소들을 수직으로 가운데 정렬합니다.*/
-}
-
-.header .jumbotron-items {
+/* 기본 헤더 스타일 */
+.header {
+    position: relative;
+    background-color: #4169E1; /* 로얄 블루 */
     color: white;
-    margin-left: 10%;
+    padding: 20px;
 }
 
-.header .jumbotron-items h1{
-    margin-bottom: -20px;
+.jumbotron-container {
+    text-align: center;
+    margin-bottom: 30px;
 }
-.header .menu-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #D3D3D3;  
-    height: auto;
 
-    
+.menu-container {
+    position: relative;
+    display: flex; /* 상위 메뉴를 가로로 정렬 */
 }
-.header .oneDepth {
-    margin-right: 5%;
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;   
+
+.menuItem {
+    position: relative;
+    margin-right: 20px; /* 메뉴 항목 사이 간격 */
 }
-.header .oneDepth a {
-    text-decoration-line: none;
-    color: black;
+
+.oneDepth a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 1; /* 상위 메뉴가 하위 메뉴보다 앞에 오도록 */
 }
-.header .twoDepth {
+
+.twoDepth {
     list-style: none;
-    display: none;
-    padding: 0px;
-    margin: 0px;   
-    position: absolute; /* 또는 fixed */
-}
-.header .twoDepth li{
-    margin-top: 10px;
-    margin-bottom: 10px;   
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.9); /* 반투명 배경 */
+    border-radius: 5px;
+    position: absolute;
+    top: 100%; /* 상위 메뉴 바로 아래에 위치 */
+    left: 0;
+    opacity: 0; /* 초기 상태는 숨겨진 상태 */
+    max-height: 0; /* 초기 높이는 0 */
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease; /* 애니메이션 */
+    z-index: 0; /* 하위 메뉴가 상위 메뉴 아래에 위치 */
 }
 
-.header .twoDepth.active {
+.menuItem:hover .twoDepth,
+.menuItem:focus-within .twoDepth {
+    opacity: 1; /* 메뉴가 나타나도록 */
+    max-height: 500px; /* 충분히 큰 높이로 설정 */
+}
+
+.twoDepth li {
+    display: block; /* 하위 메뉴를 수직으로 배치 */
+    margin: 5px 0; /* 하위 메뉴 항목 간의 간격 */
+}
+
+.twoDepth a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
     display: block;
+    padding: 5px 0; /* 하위 메뉴 링크의 패딩 */
 }
 
+/* 메뉴 항목과 하위 메뉴가 하나처럼 보이도록 조정 */
+.menuItem {
+    display: inline-block;
+    vertical-align: top; /* 각 메뉴가 상단에 맞춰지도록 */
+}
 
-
+.menuItem:hover .oneDepth a,
+.menuItem:focus-within .oneDepth a {
+    background-color: rgba(255, 255, 255, 0.3); /* 상위 메뉴에 반투명 배경 추가 */
+    color: white; /* 텍스트 색상 유지 */
+    border-radius: 5px 5px 0 0; /* 상위 메뉴의 모서리 둥글게 */
+}
