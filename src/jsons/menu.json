@@ -5,7 +5,7 @@
                 "oneDepthLink" : "/"
             },
             {
-                "oneDepthTitle" : "BASIC",
+                "oneDepthTitle" : "HTML",
                 "oneDepthLink" : "/semantic",
                 "underDepth" : [
                     {   "twoDepthTitle" : "SEMANTIC",

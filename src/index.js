@@ -8,8 +8,8 @@ import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
 import Home from './pages/Home'
-import Semantic from './webStandards/basic/1_semantic'
-import InputText from './webStandards/basic/2_inputText'
+import Semantic from './webStandards/html/1_semantic'
+import InputText from './webStandards/html/2_inputText'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
