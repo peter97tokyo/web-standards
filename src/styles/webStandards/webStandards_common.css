@@ -1,0 +1,35 @@
+/* 1_semantic */
+.example-header{
+    border : 2px solid orange;
+    margin-bottom: 3px;
+    padding-left: 30px;
+}
+.example-nav{
+    border : 2px solid orange;
+    padding-left: 30px;
+    width: 700px;
+    margin-left: 30px;
+}
+.example-contents{
+    border : 2px solid orange;
+    padding-left: 30px;
+    margin-bottom: 3px;
+}
+.example-footer{
+    border : 2px solid orange;
+    padding-left: 30px;
+}
+
+/* common of common */
+.inline{
+    padding-left: 30px;
+}
+
+.inline-2{
+    padding-left: 60px;
+}
+
+.annotation{
+    color : #228B22;
+    padding-left: 10px;
+}

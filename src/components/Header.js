@@ -38,9 +38,14 @@ const Header = () => {
                 <ul className={`twoDepth ${isOver ? "active" : ""}`}>
                     {obj.underDepth && obj.underDepth.map((subObj, subIndex) => (
                         <li key={subIndex}>
+                            {subObj.twoDepthLink.includes('www') === false
+                            ?
+                            <Link to={subObj.twoDepthLink}>{subObj.twoDepthTitle}</Link>
+                            :
                             <a href={`https://${subObj.twoDepthLink}`} target="_blank" rel="noopener noreferrer">
                                 {subObj.twoDepthTitle}
                             </a>
+                            }
                         </li>
                     ))}
                 </ul>

@@ -5,11 +5,11 @@
                 "oneDepthLink" : "/"
             },
             {
-                "oneDepthTitle" : "첫번째",
-                "oneDepthLink" : "www.naver.com",
+                "oneDepthTitle" : "BASIC",
+                "oneDepthLink" : "/semantic",
                 "underDepth" : [
-                    {   "twoDepthTitle" : "naver",
-                        "twoDepthLink" : "www.naver.com"
+                    {   "twoDepthTitle" : "SEMANTIC",
+                        "twoDepthLink" : "/semantic"
                     },
                     {   "twoDepthTitle" : "google",
                         "twoDepthLink" : "www.google.com"
