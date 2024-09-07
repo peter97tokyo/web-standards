@@ -4,5 +4,6 @@
     display: flex;
     justify-content: center; /*Flex 컨테이너 내부의 요소들을 수평으로 가운데 정렬합니다.*/
     align-items: center; /*Flex 컨테이너 내부의 요소들을 수직으로 가운데 정렬합니다.*/
+    margin-bottom: 0px;
 }
 

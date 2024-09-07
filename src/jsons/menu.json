@@ -11,8 +11,8 @@
                     {   "twoDepthTitle" : "SEMANTIC",
                         "twoDepthLink" : "/semantic"
                     },
-                    {   "twoDepthTitle" : "google",
-                        "twoDepthLink" : "www.google.com"
+                    {   "twoDepthTitle" : "TEXT",
+                        "twoDepthLink" : "/inputText"
                     }
                 ]
             },

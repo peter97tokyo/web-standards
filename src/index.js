@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Home from './pages/Home'
 import Semantic from './webStandards/basic/1_semantic'
+import InputText from './webStandards/basic/2_inputText'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
           <Routes>
              <Route path="/" element={<Home />} />
              <Route path="/semantic" element={<Semantic />} />
+             <Route path="/inputText" element={<InputText />} />
           </Routes>
       </BrowserRouter>
     <Footer />

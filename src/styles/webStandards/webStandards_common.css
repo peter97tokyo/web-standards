@@ -1,3 +1,78 @@
+/* common of common start */
+.inline{
+    padding-left: 30px;
+}
+
+.inline-2{
+    padding-left: 60px;
+}
+
+.annotation{
+    color : #228B22;
+    padding-left: 10px;
+}
+
+.tip-box {
+    border: 2px solid #4169E1;
+    border-radius: 15px;
+    
+}
+
+.tip-container {
+    display: flex;
+}
+
+.tip-notice {
+    color: white;
+    background-color: #4169E1;
+    height: 40px;
+    display: flex;
+    justify-content: center; /*Flex 컨테이너 내부의 요소들을 수평으로 가운데 정렬합니다.*/
+    align-items: center; /*Flex 컨테이너 내부의 요소들을 수직으로 가운데 정렬합니다.*/
+    width: 15%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.tip-title {
+    background-color: #b8c6f0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center; /*Flex 컨테이너 내부의 요소들을 수직으로 가운데 정렬합니다.*/
+    border-top-right-radius: 12px;
+}
+
+.tip-content {
+    margin: 10px;
+}
+
+.example-box {
+    background-color: #b8c6f0;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.others-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+.others-table th, .others-table td {
+    padding: 12px;
+    border: 1px solid #D3D3D3;
+    text-align: left;
+}
+.others-table th {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+/* common of common end */
+
 /* 1_semantic */
 .example-header{
     border : 2px solid orange;
@@ -18,18 +93,4 @@
 .example-footer{
     border : 2px solid orange;
     padding-left: 30px;
-}
-
-/* common of common */
-.inline{
-    padding-left: 30px;
-}
-
-.inline-2{
-    padding-left: 60px;
-}
-
-.annotation{
-    color : #228B22;
-    padding-left: 10px;
 }
