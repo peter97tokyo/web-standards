@@ -13,12 +13,15 @@
                     },
                     {   "twoDepthTitle" : "TEXT",
                         "twoDepthLink" : "/inputText"
+                    },
+                    {   "twoDepthTitle" : "ORDERED LIST",
+                        "twoDepthLink" : "/orderedList"
                     }
                 ]
             },
 
             {
-                "oneDepthTitle" : "두번째",
+                "oneDepthTitle" : "CSS",
                 "oneDepthLink" : "www.naver.com",
                 "underDepth" : [
                     {   "twoDepthTitle" : "naver",
@@ -31,7 +34,7 @@
             },
         
             {
-                "oneDepthTitle" : "셋번째",
+                "oneDepthTitle" : "JAVASCRIPT",
                 "oneDepthLink" : "www.naver.com",
                 "underDepth" : [
                     {   "twoDepthTitle" : "naver",
