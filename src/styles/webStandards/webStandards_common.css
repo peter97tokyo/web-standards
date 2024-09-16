@@ -1,4 +1,10 @@
 /* common of common start */
+.p-title {
+    font-size: 20px;
+    color: #4169E1;
+    font-weight : bold;
+}
+
 .inline{
     padding-left: 30px;
 }
@@ -60,7 +66,7 @@
     margin: 20px 0;
     font-family: Arial, sans-serif;
 }
-.others-table th, .others-table td {
+.others-table th, .others-table td, .others-table caption {
     padding: 12px;
     border: 1px solid #D3D3D3;
     text-align: left;

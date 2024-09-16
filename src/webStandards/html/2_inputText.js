@@ -6,7 +6,7 @@ const InputText = () => {
     <div className='common-container'>
         <div className='common-head'>텍스트 입력하기</div>
         <hr className='common-line'></hr>
-        <h3>텍스트 단락을 만드는 &lt;p&gt;, 줄을 바꾸는 &lt;br&gt;</h3>
+        <p className='p-title'>텍스트 단락을 만드는 &lt;p&gt;, 줄을 바꾸는 &lt;br&gt;</p>
         <section className='tip-box'>
             <div className='tip-container'>
                 <div className='tip-notice'>
@@ -22,7 +22,7 @@ const InputText = () => {
                 텍스트 단락을 만들 때는 p 태그를 사용해야 합니다.
             </div>
         </section>
-        <h3>인용할 때 쓰는 &lt;blockquote&gt;</h3>
+        <p className='p-title'>인용할 때 쓰는 &lt;blockquote&gt;</p>
         <p>
             blockquote 태그 안의 내용을 인용문으로 알고 다른 텍스트보다 약간 들여 씁니다.
         </p>
@@ -30,7 +30,7 @@ const InputText = () => {
             &lt;blockquote&gt;인용문&lt;/blockquote&gt;
         </section>
         <div>결과 : <blockquote　lang='ja'>99人に馬鹿にされてもひとりが笑ったらそれで良いじゃないか -江頭2時50分</blockquote></div>
-        <h3>텍스트를 굵게 표시하려는 &lt;strong&gt;, &lt;b&gt;</h3>
+        <p className='p-title'>텍스트를 굵게 표시하려는 &lt;strong&gt;, &lt;b&gt;</p>
         <p>
             strong, b 태그는 눈으로 볼 때 큰 차이가 없지만 그래도 구분하는 이유는 화면 낭독기의 기능때문입니다. 경고나 주의 사항처럼 중요한 내용을 강조해야할 때는
             strong 태그, 단순히 글자만 굵게 표시할 때는 b 태그를 사용합니다.
@@ -40,7 +40,7 @@ const InputText = () => {
             &lt;b&gt;단순하게&lt;/b&gt;
         </section>
         <div>결과 : <strong>강하게</strong>, <b>단순하게</b></div>
-        <h3>기울인 텍스트를 입력해 주는 &lt;em&gt;, &lt;i&gt;</h3>
+        <p className='p-title'>기울인 텍스트를 입력해 주는 &lt;em&gt;, &lt;i&gt;</p>
         <p>
             em은 강조를 뜻하는 emphasis의 줄임말이고 i는 기울임을 뜻하는 italic의 줄임말입니다.<br></br>
             em은 흐름상 특정 부분을 강조하고 싶을 때 사용하고 i는 마음속의 생각이나 용어 관용구 등에 사용합니다.
@@ -50,7 +50,7 @@ const InputText = () => {
             &lt;i&gt;구별&lt;/i&gt;
         </section>
         <div>결과 : <em>강조</em>, <i>구별</i></div>
-        <h3>다양한 텍스트 관련 태그</h3>
+        <p className='p-title'>다양한 텍스트 관련 태그</p>
         <table class='others-table'>
             <tr>
                 <th>종류</th>

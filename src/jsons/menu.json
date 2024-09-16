@@ -16,7 +16,11 @@
                     },
                     {   "twoDepthTitle" : "ORDERED LIST",
                         "twoDepthLink" : "/orderedList"
+                    },
+                    {   "twoDepthTitle" : "TABLE",
+                        "twoDepthLink" : "/table"
                     }
+
                 ]
             },
 

@@ -6,7 +6,7 @@ const OrderedList = () => {
     <div className='common-container'>
         <div className='common-head'>ORDERED LIST</div>
         <hr className='common-line'></hr>
-        <h3>어떤 과정을 순서대로 설명할 때 ol과 li 태그를 사용해 만듭니다.</h3>
+        <p className='p-title'>어떤 과정을 순서대로 설명할 때 ol과 li 태그를 사용해 만듭니다.</p>
         <section className='example-box'>
             &lt;ol&gt;
                 <p>&lt;li&gt;항목1&lt;/li&gt;</p>
@@ -28,13 +28,13 @@ const OrderedList = () => {
             </li>
         </ol>
         <section>
-            <h3>ol 태그의 type, start 속성</h3>
+            <p className='p-title'>ol 태그의 type, start 속성</p>
             <p>
                 앞에 예제처럼 순서 있는 목록은 기본적으로 1, 2, 3, ... 으로 번호가 붙지만 type 속성을 사용하면 영문자나 로마 숫자 등으로 순서를 나타낼 수 있습니다.
                 숫자는 1번 부터 시작하지만 start 속성을 사용하여 시작하는 숫자를 지정할 수 있습니다.
             </p>
         </section>
-        <h3>다양한 텍스트 관련 태그</h3>
+        <p className='p-title'>다양한 텍스트 관련 태그</p>
         <table class='others-table'>
             <tr>
                 <th>종류</th>
@@ -62,7 +62,7 @@ const OrderedList = () => {
                 <td>로마 숫자 대문자</td>
             </tr>
         </table>
-        <h3>설명 목록을 만드는 dl, dt, dd 태그</h3>
+        <p className='p-title'>설명 목록을 만드는 dl, dt, dd 태그</p>
         <section className='example-box'>
             &lt;dl&gt;
                 <p>&lt;dt&gt;이름&lt;/dt&gt;</p>
