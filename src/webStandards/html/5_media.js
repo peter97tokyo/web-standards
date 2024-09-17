@@ -55,6 +55,8 @@ const Media = () => {
         <section className='example-box'>
             &lt;embed width='너비' height='높이' data='파일' &gt;&lt;/embed&gt;
         </section>
+        <hr></hr>
+        <p className='p-title'>audio, video에 대해서 생략...</p>
     </div>
     )
 }

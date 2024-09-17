@@ -63,7 +63,7 @@ const Header = () => {
                 <div className='jumbotron-container'>
                     <div className='jumbotron-items'>
                         <h1>Nice to see you🗼</h1>
-                        <h3>I am Korean man in Tokyo</h3>
+                        <h3>Welcome to Peter's Web Standards</h3>
                     </div>
                 </div>
             </section>

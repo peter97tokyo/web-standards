@@ -6,7 +6,7 @@ const Semantic = () => {
     <div className='common-container'>
         <div className='common-head'>SEMANTIC</div>
         <hr className='common-line'></hr>
-        <p>웹사이트의 디자인은 서로 달라 보여도 구조는 비슷합니다.</p>
+        <p className='p-title'>웹사이트의 디자인은 서로 달라 보여도 구조는 비슷합니다.</p>
         <p>헤더, 본문, 사이드바, 풋터등 이런 구조를 바탕으로 HTML에는 태그 이름만 봐도 어떤 역할을 하는지 쉽게 알 수 있는 문서 구조 테그를 추가할 수 있습니다.</p>
         <div className='example-header'>
             <p>&lt;header&gt;<span className='annotation'>말그대로 헤더 영역을 의미합니다 전체적인 헤더일 수도 있고 특정 영역의 헤더 일수도 있습니다.</span></p>
@@ -34,7 +34,7 @@ const Semantic = () => {
                 <p className='inline'>&lt;section&gt;</p>
             <p>&lt;/footer&gt;</p>
         </div>
-        <p>Semantic Tag가 중요한 이유</p>
+        <p className='p-title'>Semantic Tag가 중요한 이유</p>
         <ol>
             <li>
                 Semantic을 사용하면 웹 브라우저가 HTML의 소스 코드만 보고도 어는 부분이 제목이고 메뉴이고 본문 내용인지 알기 쉽다.
@@ -46,7 +46,7 @@ const Semantic = () => {
                 인터넷에서 웹 사이트를 검색할 때 필요한 내용을 정확하게 찾을 수 있다.
             </li>
         </ol>
-        <p>그 외 Semantic Tag</p>
+        <p className='p-title'>그 외 Semantic Tag</p>
         <ol>
             <li>
                 article tag는 사전적 의미인 신문이나 잡지의 기사처럼 웹에서 실제로 보여 주고 싶은 내용을 넣습니다.
