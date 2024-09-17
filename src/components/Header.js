@@ -57,24 +57,27 @@ const Header = () => {
     }, [isOver]); // isOver가 변경될 때마다 실행
 
     return( 
-        <div className='header'>
-            <div className='jumbotron-container'>
-                <div className='jumbotron-items'>
-                    <h1>Nice to see you🗼</h1>
-                    <h3>I am Korean man in Tokyo</h3>
+        
+        <header className='header'>
+            <section>
+                <div className='jumbotron-container'>
+                    <div className='jumbotron-items'>
+                        <h1>Nice to see you🗼</h1>
+                        <h3>I am Korean man in Tokyo</h3>
+                    </div>
                 </div>
-            </div>
-            
-            <div className='menu-container' 
-                onMouseOver={handleOver} 
-                onMouseOut={handleOut} 
-                onFocus={handleOver}
-                onBlur={handleOut}
-            > 
-                {oneDepth}
-            </div>
-            
-        </div>
+            </section>
+            <nav>
+                <div className='menu-container' 
+                    onMouseOver={handleOver} 
+                    onMouseOut={handleOut} 
+                    onFocus={handleOver}
+                    onBlur={handleOut}
+                > 
+                    {oneDepth}
+                </div>
+            </nav>
+        </header>
     )
 }
 

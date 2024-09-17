@@ -19,6 +19,9 @@
                     },
                     {   "twoDepthTitle" : "TABLE",
                         "twoDepthLink" : "/table"
+                    },
+                    {   "twoDepthTitle" : "MEDIA",
+                        "twoDepthLink" : "/media"
                     }
 
                 ]
