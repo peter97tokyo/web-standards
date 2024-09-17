@@ -32,10 +32,10 @@
 
             {
                 "oneDepthTitle" : "CSS",
-                "oneDepthLink" : "www.naver.com",
+                "oneDepthLink" : "/cssIntro",
                 "underDepth" : [
-                    {   "twoDepthTitle" : "naver",
-                        "twoDepthLink" : "www.naver.com"
+                    {   "twoDepthTitle" : "INTRO",
+                        "twoDepthLink" : "/cssIntro"
                     },
                     {   "twoDepthTitle" : "google",
                         "twoDepthLink" : "www.google.com"

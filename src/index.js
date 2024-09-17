@@ -14,6 +14,7 @@ import OrderedList from './webStandards/html/3_orderedList'
 import Table from './webStandards/html/4_table'
 import Media from './webStandards/html/5_media'
 import Form from './webStandards/html/6_form'
+import CssIntro from './webStandards/css/1_cssIntro'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +30,7 @@ root.render(
              <Route path="/table" element={<Table />} />
              <Route path="/media" element={<Media />} />
              <Route path="/Form" element={<Form />} />
+             <Route path="/CssIntro" element={<CssIntro />} />
           </Routes>
       </BrowserRouter>
     <Footer />
