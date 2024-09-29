@@ -37,8 +37,8 @@
                     {   "twoDepthTitle" : "INTRO",
                         "twoDepthLink" : "/cssIntro"
                     },
-                    {   "twoDepthTitle" : "google",
-                        "twoDepthLink" : "www.google.com"
+                    {   "twoDepthTitle" : "FONT",
+                        "twoDepthLink" : "/font"
                     }
                 ]
             },
