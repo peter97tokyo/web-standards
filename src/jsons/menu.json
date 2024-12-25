@@ -42,7 +42,11 @@
                     },
                     {   "twoDepthTitle" : "TEXT",
                         "twoDepthLink" : "/text"
+                    },
+                    {   "twoDepthTitle" : "LIST",
+                        "twoDepthLink" : "/list"
                     }
+
                 ]
             },
         

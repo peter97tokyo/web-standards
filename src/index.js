@@ -17,6 +17,7 @@ import Form from './webStandards/html/6_form'
 import CssIntro from './webStandards/css/1_cssIntro'
 import Font from './webStandards/css/2_font'
 import Text from './webStandards/css/3_text'
+import List from './webStandards/css/4_list'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,6 +36,7 @@ root.render(
              <Route path="/cssIntro" element={<CssIntro />} />
              <Route path="/font" element={<Font />} />
              <Route path="/text" element={<Text />} />
+             <Route path="/list" element={<List />} />
           </Routes>
       </BrowserRouter>
     <Footer />
