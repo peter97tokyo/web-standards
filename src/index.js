@@ -18,6 +18,7 @@ import CssIntro from './webStandards/css/1_cssIntro'
 import Font from './webStandards/css/2_font'
 import Text from './webStandards/css/3_text'
 import List from './webStandards/css/4_list'
+import BoxModel from './webStandards/css/5_box_model'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,6 +38,7 @@ root.render(
              <Route path="/font" element={<Font />} />
              <Route path="/text" element={<Text />} />
              <Route path="/list" element={<List />} />
+             <Route path="/boxModel" element={<BoxModel />} />
           </Routes>
       </BrowserRouter>
     <Footer />
