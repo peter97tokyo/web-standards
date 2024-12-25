@@ -39,6 +39,9 @@
                     },
                     {   "twoDepthTitle" : "FONT",
                         "twoDepthLink" : "/font"
+                    },
+                    {   "twoDepthTitle" : "TEXT",
+                        "twoDepthLink" : "/text"
                     }
                 ]
             },
