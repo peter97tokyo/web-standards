@@ -16,7 +16,7 @@ const Header = () => {
     };
 
     useEffect(() => {
-        // 메뉴 데이터를 한 번만 렌더링
+        
         const one = menuData.menus.map((obj, index) => (
             <div key={index} className="menuItem">
                 
@@ -54,7 +54,7 @@ const Header = () => {
         ));
 
         setOneDepth(one);
-    }, [isOver]); // isOver가 변경될 때마다 실행
+    }, [isOver]); 
 
     return( 
         
