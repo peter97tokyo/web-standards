@@ -9,16 +9,17 @@ import reportWebVitals from './reportWebVitals';
 
 import Home from './pages/Home'
 import Semantic from './webStandards/html/1_semantic'
-import InputText from './webStandards/html/2_inputText'
-import OrderedList from './webStandards/html/3_orderedList'
+import InputText from './webStandards/html/2_input_text'
+import OrderedList from './webStandards/html/3_ordered_list'
 import Table from './webStandards/html/4_table'
 import Media from './webStandards/html/5_media'
 import Form from './webStandards/html/6_form'
-import CssIntro from './webStandards/css/1_cssIntro'
+import CssIntro from './webStandards/css/1_css_intro'
 import Font from './webStandards/css/2_font'
 import Text from './webStandards/css/3_text'
 import List from './webStandards/css/4_list'
 import BoxModel from './webStandards/css/5_box_model'
+import Layout from './webStandards/css/6_layout'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,6 +40,7 @@ root.render(
              <Route path="/text" element={<Text />} />
              <Route path="/list" element={<List />} />
              <Route path="/boxModel" element={<BoxModel />} />
+             <Route path="/layout" element={<Layout />} />
           </Routes>
       </BrowserRouter>
     <Footer />

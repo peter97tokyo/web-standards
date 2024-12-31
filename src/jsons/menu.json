@@ -48,6 +48,9 @@
                     },
                     {   "twoDepthTitle" : "BOX MODEL",
                         "twoDepthLink" : "/boxModel"
+                    },
+                    {   "twoDepthTitle" : "LAYOUT",
+                        "twoDepthLink" : "/layout"
                     }
 
                 ]
