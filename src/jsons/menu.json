@@ -54,14 +54,11 @@
             },
         
             {
-                "oneDepthTitle" : "JAVASCRIPT",
-                "oneDepthLink" : "www.naver.com",
+                "oneDepthTitle" : "REFERENCES",
+                "oneDepthLink" : "www.w3schools.com/css/default.asp",
                 "underDepth" : [
-                    {   "twoDepthTitle" : "naver",
-                        "twoDepthLink" : "www.naver.com"
-                    },
-                    {   "twoDepthTitle" : "google",
-                        "twoDepthLink" : "www.google.com"
+                    {   "twoDepthTitle" : "CSS SCHOOL",
+                        "twoDepthLink" : "www.w3schools.com/css/default.asp"
                     }
                 ]
             }    
