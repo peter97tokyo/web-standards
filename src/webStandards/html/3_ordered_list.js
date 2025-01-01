@@ -35,7 +35,7 @@ const OrderedList = () => {
             </p>
         </section>
         <p className='p-title'>다양한 텍스트 관련 태그</p>
-        <table class='others-table'>
+        <table className='others-table'>
             <tr>
                 <th>종류</th>
                 <th>설명</th>

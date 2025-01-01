@@ -37,7 +37,7 @@ const Font = () => {
             <p>단위를 사용하여 글자 크기 지정하기</p>
             <p>키워드 보단 단위를 사용하여 글자 크기를 지정합니다. 사용하는 단위는 px이나 pt, em등이며 음수값은 사용할 수 없습니다. 
                 이전에는 px, pt를 많이 사용했지만 모바일 기기까지 고려해야하는 요즘에는 상대 크기 단위인 em이나 rem을 많이 사용함</p>
-            <table class='others-table'>
+            <table className='others-table'>
                 <colgroup>
                     <col style={{width : '30%'}}></col>
                     <col style={{width : '70%'}}></col>

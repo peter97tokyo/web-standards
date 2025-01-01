@@ -9,7 +9,7 @@ const Text = () => {
             <section className='example-box'>
                 text-align: start | end | left | right | center | justify | match-parent
             </section>
-            <table class='others-table'>
+            <table className='others-table'>
                 <colgroup>
                     <col style={{width : '30%'}}></col>
                     <col style={{width : '70%'}}></col>
@@ -60,7 +60,7 @@ const Text = () => {
             <p className="p-title">텍스트의 줄을 표시하거나 없애 주는 text-decoration 속성</p>
             <p>text-decoration속성은 텍스트에 밑줄을 긋거나 취소선을 표시합니다. 그리고 텍스트에 하이퍼링크를 적용하면 기본적으로 밑줄이 생기는데 text-decoration 속성을 사용하면 없앨 수 있습니다.
             </p>
-            <table class='others-table'>
+            <table className='others-table'>
                 <colgroup>
                     <col style={{width : '30%'}}></col>
                     <col style={{width : '70%'}}></col>
@@ -92,7 +92,7 @@ const Text = () => {
             <section className='example-box'>
                 text-shadow: none | 가로거리, 새로거리, 번짐정도, 색상
             </section>
-            <table class='others-table'>
+            <table className='others-table'>
                 <colgroup>
                     <col style={{width : '30%'}}></col>
                     <col style={{width : '70%'}}></col>
@@ -128,7 +128,7 @@ const Text = () => {
                 CSS
             </h1>
             <p className="p-title">텍스트의 대소 문자를 변환하는 text-transform 속성</p>
-            <table class='others-table'>
+            <table className='others-table'>
                 <colgroup>
                     <col style={{width : '30%'}}></col>
                     <col style={{width : '70%'}}></col>

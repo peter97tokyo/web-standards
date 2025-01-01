@@ -22,7 +22,7 @@ const BoxModel = () => {
                 계산해야합니다. 그래서 box-sizing 속성이 필요합니다. box-sizing은 박스 모델의 너비와 높이를 어떻게 결정할 것인지에 따라 border-box,
                 content-box 중에서 선택할 수 있습니다.
             </p>
-            <table class='others-table'>
+            <table className='others-table'>
                 <colgroup>
                     <col style={{width : '30%'}}></col>
                     <col style={{width : '70%'}}></col>
@@ -51,7 +51,7 @@ const BoxModel = () => {
             <p className='p-title'>테두리 스타일을 지정하는 border-style 속성</p>
             <p>테두리 스타일을 지정하는 border-style속성의 기본 값은 none이므로 속성값을 따로 지정하지 않으면 
                 테두리 색상이나 두께를 지정하더라도 화면에 표시되지 않습니다.</p>
-            <table class="others-table">
+            <table className="others-table">
                 <colgroup>
                     <col style={{width : '30%'}}></col>
                     <col style={{width : '70%'}}></col>
@@ -172,7 +172,7 @@ const BoxModel = () => {
             <section className='example-box'>
                 border-radius: 크기 | 백분율
             </section>
-            <table class="others-table">
+            <table className="others-table">
                 <colgroup>
                     <col style={{width : '30%'}}></col>
                     <col style={{width : '70%'}}></col>

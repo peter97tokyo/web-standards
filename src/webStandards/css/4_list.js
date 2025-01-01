@@ -6,7 +6,7 @@ const List = () => {
             <hr className='common-line'></hr>
             <p className='p-title'>볼릿 모양과 번호 스타일을 지정하는 list-style-type 속성</p>
             <p>list-style-type 속성을 사용하여 불릿의 모양이나 번호 스타일 지정할 수 있습니다.</p>
-            <table class='others-table'>
+            <table className='others-table'>
                 <colgroup>
                     <col style={{width : '30%'}}></col>
                     <col style={{width : '70%'}}></col>
