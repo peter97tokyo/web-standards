@@ -51,8 +51,10 @@
                     },
                     {   "twoDepthTitle" : "LAYOUT",
                         "twoDepthLink" : "/layout"
+                    },
+                    {   "twoDepthTitle" : "WEB ELEMENT POSITION",
+                        "twoDepthLink" : "/webElementPosition"
                     }
-
                 ]
             },
         

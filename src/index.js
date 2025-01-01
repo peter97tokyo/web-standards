@@ -20,6 +20,7 @@ import Text from './webStandards/css/3_text'
 import List from './webStandards/css/4_list'
 import BoxModel from './webStandards/css/5_box_model'
 import Layout from './webStandards/css/6_layout'
+import WebElementPosition from './webStandards/css/7_web_element_position'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -41,6 +42,7 @@ root.render(
              <Route path="/list" element={<List />} />
              <Route path="/boxModel" element={<BoxModel />} />
              <Route path="/layout" element={<Layout />} />
+             <Route path="/webElementPosition" element={<WebElementPosition />} />
           </Routes>
       </BrowserRouter>
     <Footer />
